@@ -16,5 +16,7 @@ export const GlobalStyles = createGlobalStyle`
 
   body {
     font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
   }
 `;

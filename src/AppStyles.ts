@@ -2,10 +2,9 @@ import styled from "styled-components";
 
 export const MainContainer = styled.main`
 
-    background-color: lightpink;
-    height: 100%;
+    height: 100vh;
     display: grid;
-    grid-template: 10% 10fr 1fr / 1fr;
+    grid-template: 7vh 1fr 7vh / 1fr;
     grid-template-areas: 
         "header"
         "content"

@@ -1,11 +1,12 @@
 
 import { MainContainer } from "./AppStyles"
+import { Header } from "./ui/organisms/Header"
 
 function App() {
 
   return (
     <MainContainer>
-      <div style={{gridArea: 'header'}}>Header</div>
+      <Header />
       <div style={{gridArea: 'content'}}>Content</div>
       <div style={{gridArea: 'footer'}}>Footer</div>
     </MainContainer>

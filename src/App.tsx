@@ -1,5 +1,6 @@
 
 import { MainContainer } from "./AppStyles"
+import SearchComponent from "./ui/molecules/SearchComponent"
 import { Header } from "./ui/organisms/Header"
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
   return (
     <MainContainer>
       <Header />
-      <div style={{gridArea: 'content'}}>Content</div>
+      <div style={{gridArea: 'content'}}><SearchComponent /></div>
       <div style={{gridArea: 'footer'}}>Footer</div>
     </MainContainer>
   )

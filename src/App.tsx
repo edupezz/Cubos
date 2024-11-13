@@ -1,6 +1,7 @@
 
 import { MainContainer } from "./AppStyles"
 import Content from "./ui/organisms/Content"
+import Footer from "./ui/organisms/Footer"
 import { Header } from "./ui/organisms/Header"
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
     <MainContainer>
       <Header />
       <Content />
-      <div style={{gridArea: 'footer'}}>Footer</div>
+      <Footer />
     </MainContainer>
   )
 }

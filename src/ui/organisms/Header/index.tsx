@@ -4,7 +4,7 @@ import { HeaderContainer, LogoContainer, ThemeSwitchingButtonContainer } from ".
 import { Logo } from "../../atoms/Logo";
 import { SunIconElement } from "../../atoms/SunIcon";
 
-export const Header = () => {
+export const Header = (): JSX.Element => {
 
     return(
         <HeaderContainer>

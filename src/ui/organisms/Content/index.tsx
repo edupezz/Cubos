@@ -4,7 +4,7 @@ import { ContentContainer } from "./styles";
 import SearchComponent from "../../molecules/SearchComponent";
 import MovieListComponent from "../../molecules/MovieListComponent";
 
-const Content = () => {
+const Content = (): JSX.Element => {
 
     return(
         <ContentContainer>

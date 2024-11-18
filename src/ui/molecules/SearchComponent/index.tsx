@@ -5,7 +5,7 @@ import { SearchComponentContainer } from "./styles";
 import SearchBox from "../../atoms/SearchBox";
 import FilterButton from "../../atoms/FilterButton";
 
-const SearchComponent = () => {
+const SearchComponent = (): JSX.Element => {
 
     return(
         <SearchComponentContainer>

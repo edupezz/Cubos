@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import bg from './assets/backgropund-krists-luhaers-unsplash.png';
 
 export const MainContainer = styled.main`
 
@@ -8,4 +9,7 @@ export const MainContainer = styled.main`
         "header"
         "content"
         "footer";
+
+    background-image: url(${bg});
+
 `

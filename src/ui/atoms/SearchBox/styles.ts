@@ -1,7 +1,9 @@
 import styled from "styled-components";
+import { Input } from 'antd'
 
-export const SearchBoxInput = styled.input`
+export const StyledSearchBoxInput = styled(Input)`
 
-    width: 100%;
-    background-color: crimson;
+    height: 56px;
+    width: 40%;
+
 `

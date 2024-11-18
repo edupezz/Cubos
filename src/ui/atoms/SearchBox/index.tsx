@@ -1,11 +1,11 @@
 import React from "react";
-import { SearchBoxInput } from "./styles";
+import { StyledSearchBoxInput } from "./styles";
 
 
 const SearchBox = () => {
 
     return(
-        <SearchBoxInput type="text" />
+        <StyledSearchBoxInput  />
     )
 }
 

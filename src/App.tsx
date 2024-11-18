@@ -1,8 +1,10 @@
 
 import { MainContainer } from "./AppStyles"
+
+import Header  from "./ui/organisms/Header"
 import Content from "./ui/organisms/Content"
 import Footer from "./ui/organisms/Footer"
-import { Header } from "./ui/organisms/Header"
+
 
 function App() {
 

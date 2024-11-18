@@ -6,15 +6,12 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     outline: none;
-
     font-family: "Montserrat", sans-serif;
     font-size: 62.5%;
   }
 
   body {
-
-    width: 100vw;
-
+    width: 100%;
     font-size: 1.6rem;
     margin: 0;
     padding: 0;

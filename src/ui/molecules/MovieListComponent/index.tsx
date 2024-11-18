@@ -9,7 +9,6 @@ import Meta from "antd/es/card/Meta";
 
 const imgBaseUrl = import.meta.env.VITE_API_IMG_BASE_URL
 
-
 const MovieListComponent = (): JSX.Element => {
 
     const [trendMoviesList, setTrendMoviesList] = React.useState<any>(null)
@@ -20,20 +19,6 @@ const MovieListComponent = (): JSX.Element => {
             console.log(result)
         })
     },[])
-
-    console.log(trendMoviesList)
-
-    // const MovieItem = (): JSX.Element => {
-    //     const card = trendMoviesList && trendMoviesList?.results?.map((movie: any) => {
-            
-    //         return(
-    //             <CardContainer>
-    //                 <div key={movie.id}>{movie.title}</div>
-    //             </CardContainer>
-    //         )
-    //     })
-    //     return card;
-    // }
 
     return(
         <MovieListContainer>
@@ -63,7 +48,6 @@ const MovieListComponent = (): JSX.Element => {
                         key={item.title}
                     >
                         <Card cover={<img src={imgBaseUrl + item.poster_path} />}
-                            //style={{ width: 200 }}
                         >
                             <Meta title={item.title} />
                         </Card>

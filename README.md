@@ -1,50 +1,31 @@
-# React + TypeScript + Vite
+# Cubos - Teste Técnico.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Essa entrega tem como objetivo mostrar recursos técnicos empregados no desenvolvimento da tarefa.
 
-Currently, two official plugins are available:
+## Stack utilizada
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Front-end:** React, Styled-Components, Axios, React-Router-Dom, Vite, Ant-Design
 
-## Expanding the ESLint configuration
+## Referência
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [ReactJS](https://pt-br.legacy.reactjs.org)
+- [Atomic-Design](https://atomicdesign.bradfrost.com/chapter-2/)
+- [Styled-Components](styled-components.com/)
+- [Ant-Design](https://ant.design)
+- [Axios](https://axios-http.com)
+- [React-Router-Dom](https://www.npmjs.com/package/react-router-dom)
+- [Vite](https://vite.dev)
 
-- Configure the top-level `parserOptions` property like this:
+## Autores
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- [Eduardo Pezzi](https://www.linkedin.com/in/eduardo-pezzi/)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Variáveis de Ambiente
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de ambiente no seu .env
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+`API_KEY` Necessário possuir KEY funcional da API TMDB
+
+## Funcionalidades
+
+- AINDA EM DESENVOLVIMENTO!

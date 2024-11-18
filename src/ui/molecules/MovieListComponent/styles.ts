@@ -3,7 +3,11 @@ import styled from "styled-components";
 export const MovieListContainer = styled.div`
 
     width: 90%;
+    padding: 24px;
     grid-area: movieListArea;
+    background-color: #EBEAF814;
+    backdrop-filter: blur(4px);
+    border-radius: 4px;
 
     .ant-card-meta-title {
         font-size: 1.4rem;
